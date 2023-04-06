@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: fdsfds
   annotations:
-    github.com/project-slug: test-jhandy1-org/fdgsd
+    github.com/project-slug: 'test-jhandy1-org/fdgsd'
 spec:
   type: service
   lifecycle: experimental
