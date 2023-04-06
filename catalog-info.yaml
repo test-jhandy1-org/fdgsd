@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: fdsfds
-  annotations: {}
+  annotations:
+    github.com/project-slug: test-jhandy1-org/fdgsd
 spec:
   type: service
   lifecycle: experimental
