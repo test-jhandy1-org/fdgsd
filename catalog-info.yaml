@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fdsfds
+  annotations: {}
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default/owner
+  consumesApis:
+    - api:default/auth
+  dependsOn:
+    - resource:default/test-instance
+  system: system:default/acrobat-sign
